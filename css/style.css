@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+p {
+  line-height: 28px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p span {
+  display: block;
+}
+
+img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.navbar {
+  padding: 19px 54px;
+}
+
+.navbar .brand {
+  background-color: rgba(156, 21, 21, 0.5);
+}
+
+.navbar .brand span {
+  color: #9C1515;
+  padding: 10px 25px;
+  font-size: 24px;
+}
+
+.navbar .navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .navigation ul li {
+  margin-right: 15px;
+}
+
+.navbar .navigation ul li a {
+  color: #9C1515;
+  padding: 15px 23px;
+}
+
+.navbar .navigation ul li a:hover {
+  background-color: #9C1515;
+  color: #fff;
+  -webkit-transition: all 500ms cubic-bezier(0.22, 0.61, 0.85, 1.15);
+  transition: all 500ms cubic-bezier(0.22, 0.61, 0.85, 1.15);
+}
+
+@media all and (max-width: 992px) {
+  .navbar .navigation ul li a {
+    display: block;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .navbar .navigation ul {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    top: 74px;
+    left: 0px;
+    background-color: #f5e7e7;
+  }
+}
+
+.navbar .navigation .active {
+  display: block;
+}
+
+.navbar .navigation .community-help .btn-danger {
+  outline: none !important;
+  border: 1px solid #9C1515 !important;
+  border-radius: 15px !important;
+  background-color: #9C1515 !important;
+  padding: 2px 11px;
+  font-size: 16px;
+}
+
+.navbar .navigation .community-help .btn-danger:hover {
+  background: #fff !important;
+  color: #9C1515;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  border: 1px solid #9C1515 !important;
+}
+
+.navbar .navigation .community-help .btn-danger:active, .navbar .navigation .community-help .btn-danger:focus {
+  outline: none;
+  -webkit-box-shadow: unset !important;
+          box-shadow: unset !important;
+}
+
+.navbar .navigation .burger-menu {
+  display: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar .navigation .burger-menu div {
+  width: 27px;
+  height: 3px;
+  background-color: #000;
+}
+
+.navbar .navigation .burger-menu div:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+@media all and (max-width: 992px) {
+  .navbar .navigation .burger-menu {
+    display: inline-block;
+  }
+}
+
+.section-top {
+  background: rgba(196, 196, 196, 0.2);
+  color: #9C1515;
+  padding: 64px 54px;
+}
+
+.section-top p {
+  width: 60%;
+}
+
+.section-top p span {
+  margin: 25px 0;
+}
+
+.section-top .btn-danger {
+  outline: none !important;
+  border: 1px solid #9C1515 !important;
+  border-radius: 0 !important;
+  background-color: #9C1515 !important;
+  padding: 13px 85px;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.section-top .btn-danger:hover {
+  background: #fff !important;
+  color: #9C1515;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  border: 1px solid #9C1515 !important;
+}
+
+.section-top .btn-danger:active, .section-top .btn-danger:focus {
+  outline: none;
+  -webkit-box-shadow: unset !important;
+          box-shadow: unset !important;
+}
+
+.programs {
+  background-color: #fff;
+  padding: 64px 54px;
+}
+
+.programs h4 {
+  display: block;
+  text-align: center;
+  color: #9C1515;
+}
+
+.visionary {
+  background-color: #9C1515;
+  padding: 72px 54px;
+  color: #fff;
+}
+
+.visionary img {
+  width: 300px;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .visionary img {
+    margin-top: 35px;
+  }
+}
+
+.blank-section.one {
+  background-color: rgba(156, 21, 21, 0.1);
+  height: 80vh;
+}
+
+.blank-section.two {
+  background-color: #fff;
+  height: 70vh;
+}
+
+.blank-section.three {
+  background-color: #9C1515;
+  height: 30vh;
+}
+
+.blank-section.footer {
+  background-color: #6B6B6B;
+  height: 50vh;
+}
+/*# sourceMappingURL=style.css.map */
